@@ -1,0 +1,20 @@
+﻿<div>
+    Bla Bla
+</div>
+
+@section scripts
+{
+    <script type="text/javascript">
+        Ext.Loader.setConfig({ enabled: true });
+        Ext.Loader.setPath('Ext', '/Scripts/extjs');
+        Ext.require([
+            'Ext.Msg'
+        ]);
+
+        Ext.onReady(function () {
+            Ext.Msg.alert('Greating', 'Hello World');
+        });
+</script>
+} 
+
+
