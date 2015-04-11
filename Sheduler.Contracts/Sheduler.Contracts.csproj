@@ -41,6 +41,8 @@
   <ItemGroup>
     <Compile Include="IDatabaseManager.cs" />
     <Compile Include="IServiceFactory.cs" />
+    <Compile Include="ITask.cs" />
+    <Compile Include="ITaskManager.cs" />
     <Compile Include="IUser.cs" />
     <Compile Include="IUserManager.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

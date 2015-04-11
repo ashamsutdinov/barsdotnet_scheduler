@@ -1,0 +1,9 @@
+﻿@model UI.Models.EditTaskModel
+
+@using (Html.BeginForm())
+{
+    @Html.HiddenFor(m=>m.Id)
+    <label>AuthorId:</label>@Html.TextBoxFor(m=>m.AuthorId)
+    <label>Title:@Html.TextBoxFor(m => m.Title)</label>
+    <input type="submit" value="Save"/>
+}
